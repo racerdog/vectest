@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Xid:</strong>
+  <%= @record.xid %>
+</p>
+
+<p>
+  <strong>Content:</strong>
+  <%= @record.content %>
+</p>
+
+<p>
+  <strong>AP Number:</strong>
+  <%= @record.apnumber %>
+</p>
+
+<%= link_to 'Edit', edit_record_path(@record) %> |
+<%= link_to 'Back', records_path %>
